@@ -12,7 +12,7 @@ Division : /
 Exponentiation : **
 Operator is a symbol which perform action
 
-
+Artithmatic Operator
 Comparison operators : True or false
 Logocal  operators : for multiple conditions
 Assignment operators
@@ -73,4 +73,52 @@ console.log(num8 != num9); // 20 != 20
 console.log(num8 !== num9);
 console.log(num8 >= num9); // true
 console.log(num8 <= num9); // true
+
+
+console.log("*************")
+
+// logical operator : works on two different conditions evaluates boolean expression and comparison for 2 values  (0>1) (1>2)
+/*
+AND && Both conditions needs to be true then : Returns True
+OR ||  : this checks if any one is true :Returns 
+Not ! : changes true to false and false to true
+*/
+
+// And &&
+/*
+T && T is True
+T && F is False
+F&& t is false
+F && F is false
+*/
+// will return only true (boolean) true && true and if any one is false it will return false 
+
+let numb1 = 10
+let numb2 = 20
+
+console.log((numb1 < numb1)   && (numb1 < numb2));
+
+console.log((22 > 20)   && (20 === 20));
+/*
+T || T is True
+T || F is True
+F || t is True
+F ||  F is false
+*/
+console.log((22 > 20) || (20 === 20)); //( if first is correct then wont got second condition)
+
+console.log((19 > 20) || (20 === 20));
+
+console.log((19 > 20) || (19 === 20));
+
+//Not (!)
+// not true is false and not false is true
+
+console.log("NOT" +   !(3>2));
+
+console.log("NOT",!(3<2));
+
+// Assignment operator :  singgle equal to / left is variable to a value on right  
+
+let var1 : number = 10
 
