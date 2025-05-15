@@ -66,9 +66,25 @@ for(let ele in array2){
 //arrayName.length
 //looping concept to fetch the value by for loop
 
+
+
 // Tuple is an array having a fixed size like string , boolean and number to be assigned exactly 
 
 let myTuple : [ string , number , boolean] = [ "Ram"  , 10 , true]
 myTuple.push(20)
 console.log(myTuple);
 console.log(myTuple[0]);
+
+/*length is one of the property of array
+push is a method which accepts to add one element to end of the array
+
+*/
+
+let myTuple1 : [ string , number , boolean , number] = [ "Ram"  , 10 , true ,10]
+myTuple1.push(1000)
+console.log(myTuple1);
+
+//2.  pop() the use of this method is to remove the last element of array
+
+myTuple1.pop()
+console.log(myTuple1);
