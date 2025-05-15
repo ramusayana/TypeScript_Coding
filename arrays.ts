@@ -65,3 +65,7 @@ for(let ele in array2){
 //length in array 
 //arrayName.length
 //looping concept to fetch the value by for loop
+
+
+let myTuple : [ string , number , boolean] = [ "Ram"  , 10 , true]
+console.log(myTuple);
