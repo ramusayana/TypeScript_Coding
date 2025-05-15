@@ -66,6 +66,9 @@ for(let ele in array2){
 //arrayName.length
 //looping concept to fetch the value by for loop
 
+// Tuple is an array having a fixed size like string , boolean and number to be assigned exactly 
 
 let myTuple : [ string , number , boolean] = [ "Ram"  , 10 , true]
+myTuple.push(20)
 console.log(myTuple);
+console.log(myTuple[0]);
