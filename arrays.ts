@@ -88,3 +88,43 @@ console.log(myTuple1);
 
 myTuple1.pop()
 console.log(myTuple1);
+
+//3. unshift(element) : to add begining element of the array
+
+myTuple1.unshift(50)
+console.log("unshift" , myTuple1);
+
+// 4. shift ( remove the first element of array)
+
+myTuple1.shift()
+console.log(myTuple1);
+
+// 5. splice  , slice  ( splice is different and slice is diffenret)
+// splice ( strt index, number of elements  , ele1 , el2 ) // start index where you want add element 
+// slice ( will and delete elements same time)
+
+myTuple1.slice()
+console.log(myTuple1);
+
+myTuple1.splice(1,0, "Hello World")
+console.log(myTuple1);
+
+
+myTuple1.splice(1,1, "Hello World")
+console.log(myTuple1);
+
+myTuple1.splice(1, 1)
+console.log(myTuple1);
+
+// slice means to get a portion of array , returns a portion of array // few elements will be extracted
+// arrayName(start index ,  end index )
+// start means the position where you want slice 
+
+let myArray = [ "JS " , 100, "a" , "b" , "c" , 10 , 20 , 30]
+myArray.slice()
+console.log(myArray);
+console.log("slice()", myArray.slice(2)) // [ 'a', 'b', 'c', 10, 20, 30 ]
+
+console.log("slice()", myArray.slice(2,4)) // 'a', 'b'
+
+console.log("slice()", myArray.slice(-3, -1)) // [ 10, 20 ]
